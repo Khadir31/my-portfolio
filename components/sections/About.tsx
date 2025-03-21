@@ -25,37 +25,48 @@ const About = () => {
         </motion.h1>
 
         <p className="mt-4 text-gray-400 text-lg leading-relaxed">
-          Intro text: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-        </p>
+  <strong>About Me 🚀</strong>  
+  <br /><br />
+  Hi, I’m <strong>Abdul Khadir</strong>, a <strong>24-year-old Software Engineering student</strong> at  
+  <strong> Universiti Malaysia Terengganu</strong>, based in <strong>Kedah, Malaysia</strong>.  
+  <br /><br />
+  I’m passionate about <strong>web development, backend systems, and software solutions</strong>.  
+  Skilled in <strong>Java, JavaScript, React, and MySQL</strong>, I love building user-friendly  
+  and efficient applications.  
+  <br /><br />
+  💡 Open to <strong>collaborations, internships, and new opportunities</strong>.  
+  Let’s connect and create something great! 🚀
+</p>
+
 
         {/* CTA Button */}
-<motion.div 
-  whileHover={{ scale: 1.05 }}
-  transition={{ duration: 0.3 }}
-  className="mt-6"
->
-  <Link 
-    href="/contact" 
-    className="inline-flex items-center gap-2 px-8 py-4 text-lg font-bold text-black bg-green-500 rounded-full shadow-md hover:bg-green-600 transition-all"
+  <motion.div 
+    whileHover={{ scale: 1.05 }}
+    transition={{ duration: 0.3 }}
+    className="mt-6"
   >
-    <DocumentIcon className="w-6 h-6 text-black" />
-    Let’s get started ➜
-  </Link>
-</motion.div>
+    <Link 
+      href="/contact" 
+      className="inline-flex items-center gap-2 px-8 py-4 text-lg font-bold text-black bg-green-500 rounded-full shadow-md hover:bg-green-600 transition-all"
+    >
+      <DocumentIcon className="w-6 h-6 text-black" />
+      Let’s get started ➜
+    </Link>
+  </motion.div>
 
 
-        <motion.div 
-  whileHover={{ scale: 1.05 }}
-  transition={{ duration: 0.3 }}
-  className="mt-6"
->
-  <Link 
-    href="/contact" 
-    className="inline-block px-8 py-4 text-lg font-bold text-white bg-blue-500 rounded-full shadow-md hover:bg-blue-600 transition-all"
+  <motion.div 
+    whileHover={{ scale: 1.05 }}
+    transition={{ duration: 0.3 }}
+    className="mt-6"
   >
-    Let’s get started ➜
-  </Link>
-</motion.div>
+    <Link 
+      href="/contact" 
+      className="inline-block px-8 py-4 text-lg font-bold text-white bg-blue-500 rounded-full shadow-md hover:bg-blue-600 transition-all"
+    >
+      Let’s get started ➜
+    </Link>
+  </motion.div>
 
 
         {/* Worked With Section
