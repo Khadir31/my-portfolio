@@ -12,7 +12,7 @@ const Mixer = () => {
         <CardHeader className="flex flex-col sm:flex-row justify-between items-center">
           <div className="text-center sm:text-left flex-1">
             <h1 className={title({ size: "lg" })}>I build,</h1>
-            <h2 className={title({ size: "xl" })}>a lot</h2>
+            <h2 className={title({ size: "lg" })}>a lot</h2> {/* Changed xl to lg */}
             <p className="text-gray-400 text-lg mt-2">
               Web apps, mobile apps, and a lot of experiments.
             </p>
@@ -25,7 +25,7 @@ const Mixer = () => {
           <div className="hidden sm:block w-px h-28 bg-gray-600 mx-8"></div>
           <div className="text-center sm:text-left flex-1">
             <h1 className={title({ size: "lg" })}>I write,</h1>
-            <h2 className={title({ size: "xl" })}>a bit</h2>
+            <h2 className={title({ size: "lg" })}>a bit</h2> {/* Changed xl to lg */}
             <p className="text-gray-400 text-lg mt-2">
               A bit of everything, from binary to infinity.
             </p>
@@ -42,3 +42,4 @@ const Mixer = () => {
 };
 
 export default Mixer;
+
