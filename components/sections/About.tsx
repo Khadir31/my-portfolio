@@ -7,7 +7,7 @@ import { siteConfig } from "@/config/site";
 import { TypingCodeSnippet } from "@/components/typing-snippet";
 import { Avatar } from "@nextui-org/avatar";
 import { motion } from "framer-motion";
-import { DocumentIcon, LinkedInIcon } from "@/components/icons";
+import { DocumentIcon, EmailIcon } from "@/components/icons";
 
 const About = () => {
   return (
@@ -42,13 +42,14 @@ const About = () => {
     transition={{ duration: 0.3 }}
     className="mt-6"
   >
-    <Link 
-      href="/contact" 
-      className="inline-flex items-center gap-2 px-8 py-4 text-lg font-bold text-black bg-green-500 rounded-full shadow-md hover:bg-green-600 transition-all"
-    >
-      <DocumentIcon className="w-6 h-6 text-black" />
-      Let’s get started ➜
-    </Link>
+      <Link 
+    href={siteConfig.links.resume} 
+    className="inline-flex items-center gap-2 px-8 py-4 text-lg font-bold text-black bg-green-500 rounded-full shadow-md hover:bg-green-600 transition-all"
+  >
+    <DocumentIcon className="w-6 h-6 text-black" />
+    Resume ➜
+  </Link>
+
   </motion.div>
 
 
@@ -59,9 +60,9 @@ const About = () => {
   >
     <Link 
       href="/contact" 
-      className="inline-block px-8 py-4 text-lg font-bold text-white bg-blue-500 rounded-full shadow-md hover:bg-blue-600 transition-all"
-    >
-      Let’s get started ➜
+      className="inline-flex items-center gap-2 px-8 py-4 text-lg font-bold text-black bg-green-500 rounded-full shadow-md hover:bg-green-600 transition-all"    >
+      <EmailIcon className="w-6 h-6 text-black" />
+      Email ➜
     </Link>
   </motion.div>
 
