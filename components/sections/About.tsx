@@ -24,19 +24,16 @@ const About = () => {
           Abdul Khadir
         </motion.h1>
 
-        <p className="mt-4 text-gray-400 text-lg leading-relaxed">
-  <strong>About Me 🚀</strong>  
-  <br /><br />
-  Hi, I’m <strong>Abdul Khadir</strong>, a <strong>24-year-old Software Engineering student</strong> at  
-  <strong> Universiti Malaysia Terengganu</strong>, based in <strong>Kedah, Malaysia</strong>.  
-  <br /><br />
-  I’m passionate about <strong>web development, backend systems, and software solutions</strong>.  
-  Skilled in <strong>Java, JavaScript, React, and MySQL</strong>, I love building user-friendly  
-  and efficient applications.  
-  <br /><br />
-  💡 Open to <strong>collaborations, internships, and new opportunities</strong>.  
-  Let’s connect and create something great! 🚀
-</p>
+  <p className="mt-4 text-gray-400 text-lg leading-relaxed">
+    🚀 Hi, I’m <strong>Abdul Khadir</strong>, a <strong>Software Engineering student</strong> at  
+    Universiti Malaysia Terengganu, based in <strong>Kedah, Malaysia</strong>.  
+    <br /><br />
+    Passionate about <strong>web development & backend systems</strong>, skilled in  
+    <strong> Java, JavaScript, React, and MySQL</strong>.  
+    <br /><br />
+    💡 Open to <strong>collaborations & opportunities</strong>. Let’s connect!  
+  </p>
+
 
 
         {/* CTA Button */}
