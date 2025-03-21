@@ -24,14 +24,14 @@ const ProgrammingSkills = [
     url: "https://react.dev/",
     image: <React width={size} height={size} />,
   },
-  {
-    name: "Flutter",
-    description:
-      "Open-source UI software development toolkit created by Google.",
-    shortUrl: "flutter.dev",
-    url: "https://flutter.dev/",
-    image: <Flutter width={size} height={size} />,
-  },
+  // {
+  //   name: "Flutter",
+  //   description:
+  //     "Open-source UI software development toolkit created by Google.",
+  //   shortUrl: "flutter.dev",
+  //   url: "https://flutter.dev/",
+  //   image: <Flutter width={size} height={size} />,
+  // },
   {
     name: "Firebase",
     description:

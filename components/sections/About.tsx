@@ -28,8 +28,7 @@ const About = () => {
     🚀 Hi, I’m <strong>Abdul Khadir</strong>, a <strong>Software Engineering student</strong> at  
     Universiti Malaysia Terengganu, based in <strong>Kedah, Malaysia</strong>.  
     <br /><br />
-    Passionate about <strong>web development & backend systems</strong>, skilled in  
-    <strong> Java, JavaScript, React, and MySQL</strong>.  
+    Passionate about <strong>web development & backend systems</strong>. 
     <br /><br />
     💡 Open to <strong>collaborations & opportunities</strong>. Let’s connect!  
   </p>
