@@ -12,11 +12,11 @@ interface Article {
   id: string;
   created_time: string;
   last_edited_time: string;
-  created_by: any; 
-  last_edited_by: any; 
+  created_by: any;
+  last_edited_by: any;
   cover: any;
   icon: any;
-  parent: any; 
+  parent: any;
   archived: boolean;
   properties: {
     Title: { title: Array<{ plain_text: string }> };
@@ -33,34 +33,53 @@ export const notionClient = new Client({
 });
 
 export const getPages = cache(async (): Promise<Article[]> => {
-  const response = await notionClient.databases.query({
-    filter: {
-      property: "Status",
-      status: {
-        equals: "Published",
-      },
-    },
-    sorts: [
-      {
-        property: "Created time",
-        direction: "descending",
-      },
-    ],
-    database_id: process.env.NOTION_DATABASE_ID!,
-  });
+  try {
+    if (!process.env.NOTION_DATABASE_ID) {
+      throw new Error("NOTION_DATABASE_ID is not defined");
+    }
 
-  return response.results as Article[];
+    const response = await notionClient.databases.query({
+      filter: {
+        property: "Status",
+        status: {
+          equals: "Published",
+        },
+      },
+      sorts: [
+        {
+          property: "Created time",
+          direction: "descending",
+        },
+      ],
+      database_id: process.env.NOTION_DATABASE_ID!,
+    });
+
+    console.log("Fetched Notion Pages:", response.results); // Debugging
+
+    return response.results as Article[];
+  } catch (error) {
+    console.error("Error fetching Notion pages:", error);
+    return []; // Prevent crashing
+  }
 });
 
-export const getPageContent = cache((pageId: string) => {
-  return notionClient.blocks.children
-    .list({ block_id: pageId })
-    .then((res) => res.results as BlockObjectResponse[]);
+export const getPageContent = cache(async (pageId: string) => {
+  try {
+    const res = await notionClient.blocks.children.list({ block_id: pageId });
+    return res.results as BlockObjectResponse[];
+  } catch (error) {
+    console.error("Error fetching page content:", error);
+    return [];
+  }
 });
 
-export const getPageBySlug = cache((slug: string) => {
-  return notionClient.databases
-    .query({
+export const getPageBySlug = cache(async (slug: string) => {
+  try {
+    if (!process.env.NOTION_DATABASE_ID) {
+      throw new Error("NOTION_DATABASE_ID is not defined");
+    }
+
+    const res = await notionClient.databases.query({
       database_id: process.env.NOTION_DATABASE_ID!,
       filter: {
         property: "Slug",
@@ -68,6 +87,11 @@ export const getPageBySlug = cache((slug: string) => {
           equals: slug,
         },
       },
-    })
-    .then((res) => res.results[0] as PageObjectResponse | undefined);
+    });
+
+    return res.results[0] as PageObjectResponse | undefined;
+  } catch (error) {
+    console.error("Error fetching page by slug:", error);
+    return undefined;
+  }
 });
