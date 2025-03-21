@@ -4,6 +4,7 @@ This is a personal portfolio site using Next.js 14 (app directory), NextUI (v2) 
 
 ## Technologies Used
 
+-Node V18.17
 - [Next.js 14](https://nextjs.org/docs/getting-started)
 - [NextUI v2](https://nextui.org/)
 - [Tailwind CSS](https://tailwindcss.com/)
@@ -20,7 +21,7 @@ This is a personal portfolio site using Next.js 14 (app directory), NextUI (v2) 
 To create a new project based on this template using `create-next-app`, run the following command:
 
 ```bash
-npx create-next-app -e https://github.com/Khadir31/my-portfolio.git
+npx create-next-app -e https://github.com/Khadir31/my-portfolio
 ```
 
 ### Install dependencies
