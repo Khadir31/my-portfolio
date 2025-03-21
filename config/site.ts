@@ -69,10 +69,10 @@ export const siteConfig = {
   ],
   links: {
     email: "mailto:khadirnizal@gmail.com",
-		linkedin: "https://www.linkedin.com/in/haikal-mohd-puat/",
+		linkedin: "https://www.linkedin.com/in/abdul-khadir-nizal/",
     resume:
       "https://drive.google.com/file/d/16zUsinHhDTjMXNaASD40zwpLCSFiNGKy/view?usp=sharing",
-    github: "https://github.com/hkaiman",
+    github: "https://github.com/Khadir31",
     twitter: "https://twitter.com/getnextui",
     docs: "https://nextui.org",
     discord: "https://discord.gg/9b6yyZKmH4",
