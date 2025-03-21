@@ -58,12 +58,14 @@ const About = () => {
     transition={{ duration: 0.3 }}
     className="mt-6"
   >
-    <Link 
-      href="/contact" 
-      className="inline-flex items-center gap-2 px-8 py-4 text-lg font-bold text-black bg-green-500 rounded-full shadow-md hover:bg-green-600 transition-all"    >
-      <EmailIcon className="w-6 h-6 text-black" />
-      Email ➜
-    </Link>
+      <Link 
+    href={siteConfig.links.email} 
+    className="inline-flex items-center gap-2 px-8 py-4 text-lg font-bold text-white bg-blue-500 rounded-full shadow-md hover:bg-blue-600 transition-all"
+  >
+    <EmailIcon className="w-6 h-6 text-white" />
+    Email ➜
+  </Link>
+
   </motion.div>
 
 
