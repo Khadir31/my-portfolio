@@ -5,13 +5,14 @@ const nextConfig = {
       {
         protocol: "https",
         hostname: "images.unsplash.com",
-      },      
+      },
       {
         protocol: "https",
         hostname: "assets.aceternity.com",
       },
     ],
   },
+  output: "standalone", // Helps Vercel deploy correctly
 };
 
-module.exports = nextConfig
+module.exports = nextConfig;
