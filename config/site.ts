@@ -1,8 +1,8 @@
 export type SiteConfig = typeof siteConfig;
 
 export const siteConfig = {
-  name: "Haikal Aiman",
-  description: "Portfolio Site of Haikal Aiman",
+  name: "Abdul Khadir",
+  description: "Portfolio Site of Abdul Khadir",
   navItems: [
     {
       label: "Home",

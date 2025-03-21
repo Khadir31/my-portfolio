@@ -49,7 +49,7 @@ export default function RootLayout({
               {children}
             </main>
             <footer className="w-full flex items-center justify-center py-3 mt-5">
-						© {getCurrentYear()} -{" "} Haikal Aiman All Rights Reserved
+						© {getCurrentYear()} -{" "} Abdul Khadir All Rights Reserved
               {/* <Link
                 isExternal
                 className="flex items-center gap-1 text-current"
