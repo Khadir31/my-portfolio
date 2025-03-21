@@ -50,9 +50,9 @@ const ProjectDetails = [
   },
   {
     name: "Personal Portfolio",
-    date: "January 2024",
+    date: "March 2025",
     description: "A personal portfolio site created using Next.js and Notion.",
-    githubUrl: "https://github.com/hkaiman/personal-portfolio",
+    githubUrl: "https://github.com/Khadir31/my-portfolio",
     image: <React width={50} height={50} />,
     tech: ["Next.js", "NextUI", "Framer Motion", "Notion"],
   },
