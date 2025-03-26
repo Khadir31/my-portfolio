@@ -54,15 +54,15 @@ const ProjectDetails = [
     image: <React width={50} height={50} />,
     tech: ["Next.js", "NextUI", "Framer Motion", "Notion"],
   },
-  {
-    name: "Household Management System",
-    date: "June 2023 - December 2023",
-    description:
-      "A mobile application developed to help households manage and streamline chores while fostering community engagement among members.",
-    githubUrl: "https://github.com/hkaiman/household_management_system_public",
-    image: "/img/household.png",
-    tech: ["Flutter", "Firebase"],
-  },
+  // {
+  //   name: "Household Management System",
+  //   date: "June 2023 - December 2023",
+  //   description:
+  //     "A mobile application developed to help households manage and streamline chores while fostering community engagement among members.",
+  //   githubUrl: "https://github.com/hkaiman/household_management_system_public",
+  //   image: "/img/household.png",
+  //   tech: ["Flutter", "Firebase"],
+  // },
 
 const Projects = () => {
   return (
