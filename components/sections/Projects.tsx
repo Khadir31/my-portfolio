@@ -12,7 +12,7 @@ const ProjectDetails = [
     description: "Paday Garage Management System is a web platform built with Java, HTML, CSS, and JavaScript to help Paday Garage sell original spare parts and allow users to book car services. It ensures customers get genuine parts while making service booking easy and efficient. 🚗",
     githubUrl: "https://github.com/Khadir31/FYP---Paday-Garage-Management-System",
     image: "/img/pglogo.png",
-    tech: ["Java", "HTML", "JavaScript", "CSS"],
+    tech: ["Java", "HTML", "JavaScript", "CSS"]
   },
   {
     name: "Diskusi",
@@ -21,7 +21,7 @@ const ProjectDetails = [
     githubUrl: "https://github.com/hkaiman/diskusi",
     image: "/img/diskusi.png",
     tech: ["Next.js", "React", "ShadcnUI", "Upstash", "Prisma", "MySQL"],
-    siteUrl: "https://diskusi.vercel.app/",
+    siteUrl: "https://diskusi.vercel.app/"
   },
   {
     name: "DK Car Auto",
@@ -29,7 +29,7 @@ const ProjectDetails = [
     description: "A simple landing page for car dealer company.",
     image: "/img/dkcarauto.png",
     tech: ["React"],
-    siteUrl: "https://dkautocar.com/",
+    siteUrl: "https://dkautocar.com/"
   },
   {
     name: "Personal Portfolio",
@@ -37,9 +37,9 @@ const ProjectDetails = [
     description: "A personal portfolio site created using Next.js and Notion.",
     githubUrl: "https://github.com/Khadir31/my-portfolio",
     image: <React width={50} height={50} />,
-    tech: ["Next.js", "NextUI", "Framer Motion", "Notion"],
+    tech: ["Next.js", "NextUI", "Framer Motion", "Notion"]
   }
-]; // ✅ **Added closing bracket for ProjectDetails array**
+]; // ✅ Make sure there is no extra comma at the end
 
 const Projects = () => {
   return (
@@ -67,3 +67,4 @@ const Projects = () => {
 };
 
 export default Projects;
+
