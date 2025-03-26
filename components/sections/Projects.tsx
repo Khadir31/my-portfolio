@@ -7,20 +7,18 @@ import ProjectCard from "../cards/ProjectCard";
 
 const ProjectDetails = [
   {
-    name: "Semak Kata Kesat",
+    name: "FYP - Paday Garage Management System",
     date: "Jun 2024",
     description: "A web application to detect profanity word in Malay language.",
-    githubUrl: "https://github.com/hkaiman/kata-kesat-frontend",
-    image: "/img/semak-kata-kesat.png",
+    githubUrl: "https://github.com/Khadir31/FYP---Paday-Garage-Management-System",
+    image: "/img/pglogo.png",
     tech: [
-      "Next.js",
-      "Hono.js",
-      "React",
-      "ShadcnUI",
-      "Upstash",
-      "Tailwind",
+      "Java",
+      "HTML",
+      "JavaScript",
+      "CSS",
+      
     ],
-    siteUrl: "https://semak-kata-kesat.vercel.app/",
   },
   {
     name: "Diskusi",
