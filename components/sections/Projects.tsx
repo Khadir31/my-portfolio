@@ -9,7 +9,7 @@ const ProjectDetails = [
   {
     name: "FYP - Paday Garage Management System",
     date: "Jun 2024",
-    description: "Paday Garage Management System is a web-based platform designed to combat counterfeit car parts by providing a trusted marketplace for **Paday Garage** to sell original spare parts. Built using **Java, HTML, CSS, and JavaScript**, the system ensures customers can easily purchase genuine parts and book service appointments at the garage. It enhances user experience with a secure, efficient, and user-friendly interface, streamlining both product sales and service scheduling. 🚗💻",
+    description: "Paday Garage Management System is a web platform built with Java, HTML, CSS, and JavaScript to help Paday Garage sell original spare parts and allow users to book car services. It ensures customers get genuine parts while making service booking easy and efficient. 🚗",
     githubUrl: "https://github.com/Khadir31/FYP---Paday-Garage-Management-System",
     image: "/img/pglogo.png",
     tech: [
