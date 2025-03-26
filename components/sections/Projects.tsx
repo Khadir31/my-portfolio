@@ -9,7 +9,7 @@ const ProjectDetails = [
   {
     name: "FYP - Paday Garage Management System",
     date: "Jun 2024",
-    description: "**Paday Garage Management System** is a web-based platform designed to combat counterfeit car parts by providing a trusted marketplace for **Paday Garage** to sell original spare parts. Built using **Java, HTML, CSS, and JavaScript**, the system ensures customers can easily purchase genuine parts and book service appointments at the garage. It enhances user experience with a secure, efficient, and user-friendly interface, streamlining both product sales and service scheduling. 🚗💻",
+    description: "Paday Garage Management System is a web-based platform designed to combat counterfeit car parts by providing a trusted marketplace for **Paday Garage** to sell original spare parts. Built using **Java, HTML, CSS, and JavaScript**, the system ensures customers can easily purchase genuine parts and book service appointments at the garage. It enhances user experience with a secure, efficient, and user-friendly interface, streamlining both product sales and service scheduling. 🚗💻",
     githubUrl: "https://github.com/Khadir31/FYP---Paday-Garage-Management-System",
     image: "/img/pglogo.png",
     tech: [
@@ -63,34 +63,6 @@ const ProjectDetails = [
     image: "/img/household.png",
     tech: ["Flutter", "Firebase"],
   },
-  // {
-  //   name: "Mockup Cinema Booking System",
-  //   date: "September 2022 - October 2022",
-  //   description:
-  //     "A cinema booking system designed to enable users to seamlessly reserve movie tickets and administrators to efficiently manage ticket operations.",
-  //   githubUrl: "https://github.com/hkaiman/cinema-booking-system",
-  //   image: "/img/syne.png",
-  //   tech: ["Java SE", "Servlet", "JavaScript"],
-  // },
-  // {
-  //   name: "Mockup School Management System",
-  //   date: "September 2022 - October 2022",
-  //   description:
-  //     "A school management system tailored for streamlined student registration and effective teacher management.",
-  //   githubUrl: "https://github.com/hkaiman/school_management_system",
-  //   image: "/img/school.png",
-  //   tech: ["Java SE", "Servlet", "JavaScript", "ChartJS"],
-  // },
-  // {
-  //   name: "Gaming Store System",
-  //   date: "September 2021",
-  //   description:
-  //     "A gaming store system which enable user to buy games and make payment.",
-  //   githubUrl: "https://github.com/hkaiman/gaming-store-system",
-  //   image: "/img/gx.png",
-  //   tech: ["Java Swing", "Netbeans GUI"],
-  // },
-];
 
 const Projects = () => {
   return (
