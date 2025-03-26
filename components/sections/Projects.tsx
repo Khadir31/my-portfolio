@@ -9,9 +9,9 @@ const ProjectDetails = [
   {
     name: "FYP - Paday Garage Management System",
     date: "Jun 2024",
-    description: "A web application to detect profanity word in Malay language.",
+    description: "Paday Garage Management System is a web platform built with Java, HTML, CSS, and JavaScript to help Paday Garage sell original spare parts and allow users to book car services. It ensures customers get genuine parts while making service booking easy and efficient. 🚗",
     githubUrl: "https://github.com/Khadir31/FYP---Paday-Garage-Management-System",
-    image: "/img/semak-kata-kesat.png",
+    image: "/img/pglogo.png",
     tech: [
       "Java",
       "CSS",
@@ -53,15 +53,15 @@ const ProjectDetails = [
     image: <React width={50} height={50} />,
     tech: ["Next.js", "NextUI", "Framer Motion", "Notion"],
   },
-  {
-    name: "Household Management System",
-    date: "June 2023 - December 2023",
-    description:
-      "A mobile application developed to help households manage and streamline chores while fostering community engagement among members.",
-    githubUrl: "https://github.com/hkaiman/household_management_system_public",
-    image: "/img/household.png",
-    tech: ["Flutter", "Firebase"],
-  },
+  // {
+  //   name: "Household Management System",
+  //   date: "June 2023 - December 2023",
+  //   description:
+  //     "A mobile application developed to help households manage and streamline chores while fostering community engagement among members.",
+  //   githubUrl: "https://github.com/hkaiman/household_management_system_public",
+  //   image: "/img/household.png",
+  //   tech: ["Flutter", "Firebase"],
+  // },
   // {
   //   name: "Mockup Cinema Booking System",
   //   date: "September 2022 - October 2022",

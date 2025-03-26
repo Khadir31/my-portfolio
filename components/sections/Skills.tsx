@@ -32,14 +32,14 @@ const ProgrammingSkills = [
   //   url: "https://flutter.dev/",
   //   image: <Flutter width={size} height={size} />,
   // },
-  {
-    name: "Firebase",
-    description:
-      "Comprehensive mobile and web application development platform managed by Google.",
-    shortUrl: "firebase.google.com",
-    url: "https://firebase.google.com/",
-    image: <Firebase width={size} height={size} />,
-  },
+  // {
+  //   name: "Firebase",
+  //   description:
+  //     "Comprehensive mobile and web application development platform managed by Google.",
+  //   shortUrl: "firebase.google.com",
+  //   url: "https://firebase.google.com/",
+  //   image: <Firebase width={size} height={size} />,
+  // },
   {
     name: "Laravel",
     description:
