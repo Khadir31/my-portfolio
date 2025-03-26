@@ -12,13 +12,7 @@ const ProjectDetails = [
     description: "Paday Garage Management System is a web platform built with Java, HTML, CSS, and JavaScript to help Paday Garage sell original spare parts and allow users to book car services. It ensures customers get genuine parts while making service booking easy and efficient. 🚗",
     githubUrl: "https://github.com/Khadir31/FYP---Paday-Garage-Management-System",
     image: "/img/pglogo.png",
-    tech: [
-      "Java",
-      "HTML",
-      "JavaScript",
-      "CSS",
-      
-    ],
+    tech: ["Java", "HTML", "JavaScript", "CSS"],
   },
   {
     name: "Diskusi",
@@ -26,14 +20,7 @@ const ProjectDetails = [
     description: "A Reddit clone web application created using Next.js.",
     githubUrl: "https://github.com/hkaiman/diskusi",
     image: "/img/diskusi.png",
-    tech: [
-      "Next.js",
-      "React",
-      "ShadcnUI",
-      "Upstash",
-      "Prisma",
-      "MySQL",
-    ],
+    tech: ["Next.js", "React", "ShadcnUI", "Upstash", "Prisma", "MySQL"],
     siteUrl: "https://diskusi.vercel.app/",
   },
   {
@@ -41,9 +28,7 @@ const ProjectDetails = [
     date: "February 2024",
     description: "A simple landing page for car dealer company.",
     image: "/img/dkcarauto.png",
-    tech: [
-      "React",
-    ],
+    tech: ["React"],
     siteUrl: "https://dkautocar.com/",
   },
   {
@@ -53,16 +38,8 @@ const ProjectDetails = [
     githubUrl: "https://github.com/Khadir31/my-portfolio",
     image: <React width={50} height={50} />,
     tech: ["Next.js", "NextUI", "Framer Motion", "Notion"],
-  },
-  // {
-  //   name: "Household Management System",
-  //   date: "June 2023 - December 2023",
-  //   description:
-  //     "A mobile application developed to help households manage and streamline chores while fostering community engagement among members.",
-  //   githubUrl: "https://github.com/hkaiman/household_management_system_public",
-  //   image: "/img/household.png",
-  //   tech: ["Flutter", "Firebase"],
-  // },
+  }
+]; // ✅ **Added closing bracket for ProjectDetails array**
 
 const Projects = () => {
   return (
