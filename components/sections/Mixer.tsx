@@ -22,7 +22,7 @@ const Mixer = () => {
               </Link>
             </Button>
           </div>
-          {/* <div className="hidden sm:block w-px h-28 bg-gray-600 mx-8"></div>
+          <div className="hidden sm:block w-px h-28 bg-gray-600 mx-8"></div>
           <div className="text-center sm:text-left flex-1">
             <h1 className={title({ size: "lg" })}>I write,</h1>
             <h2 className={title({ size: "lg" })}>a bit</h2> {/* Changed xl to lg */}
@@ -34,7 +34,7 @@ const Mixer = () => {
                 Read my stuffs
               </Link>
             </Button>
-          </div> */}
+          </div>
         </CardHeader>
       </Card>
     </section>

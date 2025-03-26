@@ -31,9 +31,9 @@ const Blogs: React.FC<{ articles: Article[] }> = ({ articles }) => {
         {articles.map((article, index) => {
           const formattedDate = article.date
             ? new Date(article.date).toLocaleDateString("en-US", {
-                day: "12",
-                month: "July",
-                year: "2024",
+                day: "numeric",
+                month: "long",
+                year: "numeric",
               })
             : "N/A";
           const slug = article.slug || "";
