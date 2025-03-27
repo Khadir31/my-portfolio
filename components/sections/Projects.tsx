@@ -24,7 +24,7 @@ const ProjectDetails = [
     date: "August 2024",
     description: "A React Question app created using React.js.",
     githubUrl: "https://github.com/Khadir31/ReactQuiz",
-    image: "/img/react1.png",
+    image: <React width={50} height={50} />,
     tech: [      
       "React",    ],
     siteUrl: "https://react-quiz-xi-three.vercel.app/",
@@ -34,7 +34,7 @@ const ProjectDetails = [
     date: "January 2025",
     description: "A simple page that display some Programming jokes.",
     githubUrl: "https://github.com/Khadir31/JokeGenerator",
-    image: "/img/react2.png",
+    image: <React width={50} height={50} />,
     tech: [
       "React",
     ],
