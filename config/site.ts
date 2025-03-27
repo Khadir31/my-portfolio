@@ -71,7 +71,7 @@ export const siteConfig = {
     email: "mailto:khadirnizal@gmail.com",
 		linkedin: "https://www.linkedin.com/in/abdul-khadir-nizal/",
     resume:
-      "https://drive.google.com/file/d/16zUsinHhDTjMXNaASD40zwpLCSFiNGKy/view?usp=sharing",
+      "https://drive.google.com/file/d/1bRgifyep-hKIY87aBX88NRAuo_OIyh3q/view?usp=sharing",
     github: "https://github.com/Khadir31",
     twitter: "https://twitter.com/getnextui",
     docs: "https://nextui.org",
