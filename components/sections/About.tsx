@@ -24,15 +24,21 @@ const About = () => {
           Abdul Khadir
         </motion.h1>
 
-  <p className="mt-4 text-gray-400 text-lg leading-relaxed">
-    🚀 Hi, I’m <strong>Abdul Khadir</strong>, a <strong>Software Engineering student</strong> at  
-    Universiti Malaysia Terengganu, based in <strong>Kedah, Malaysia</strong>.  
-    <br /><br />
-    Passionate about <strong>web development & backend systems</strong>. 
-    <br /><br />
-    💡 Open to <strong>collaborations & opportunities</strong>. Let’s connect!  
-  </p>
 
+        <p className="mt-4 text-gray-400 text-lg leading-relaxed"> 
+          🚀 Hi, I’m <strong>Abdul Khadir</strong>, a <strong>Software Engineer</strong> from Kedah,
+           Malaysia, and a proud graduate of <strong>Universiti Malaysia Terengganu</strong>.
+            <br /><br /> Previously an intern at <strong>Fulkrum Interactive</strong>, 
+            where I gained hands-on experience in full-stack development using Laravel and React, 
+            API design, testing, and agile practices. <br /><br /> 
+            I’m now working at <strong>Capgemini</strong> as a Software Engineer, 
+            currently serving at the client site as a <strong>Software Tester</strong>, 
+            ensuring software quality and reliability. <br /><br /> 
+            Passionate about <strong>web development, backend systems,
+           and building meaningful digital experiences</strong>. <br /><br />
+            💡 Open to <strong>collaborations & opportunities</strong>. 
+            
+        Let’s connect! </p>
 
 
         {/* CTA Button */}
@@ -100,7 +106,7 @@ const About = () => {
         className="lg:w-1/2 flex justify-center mt-10 lg:mt-0"
       >
         <Avatar
-          src="/img/blazer.png"
+          src="/img/cp_convo.jpg"
           className="w-56 h-56 border-4 border-gray-700 shadow-lg rounded-full"
         />
       </motion.div>
